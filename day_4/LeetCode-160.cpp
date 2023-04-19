@@ -44,12 +44,12 @@ intersectVal == listA[skipA] == listB[skipB] if listA and listB intersect.
  */
 class Solution {
 public:
-    ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
     if (headA == NULL || headB == NULL)
         return NULL;
 
-    struct ListNode* A = headA;
-    struct ListNode* B = headB;
+    ListNode* A = headA;
+    ListNode* B = headB;
 
     while (A != B) {
         A = A == NULL ? headB : A->next;
