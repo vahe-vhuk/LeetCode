@@ -18,7 +18,7 @@ Input/Output
 [input] integer n
 
 Guaranteed constraints:
-0 ≤ n ≤ 231 - 1.
+0 ≤ n ≤ 2**31 - 1.
 
 [input] integer k
 
