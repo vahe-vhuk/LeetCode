@@ -53,5 +53,7 @@ forgot to encrypt this number), so the answer is still 37.
 
 Time complexity: O(1)
 Space complexity: O(1)
+
+CodeSignal tests passed: All
 */
 
