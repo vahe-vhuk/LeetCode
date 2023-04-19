@@ -9,6 +9,11 @@ is 0 because there are no elements to the left. This also applies to the
 right edge of the array.
 
 Return the leftmost pivot index. If no such index exists, return -1.
+
+Constraints:
+
+1 <= nums.length <= 104
+-1000 <= nums[i] <= 1000
 */
 
 class Solution {
